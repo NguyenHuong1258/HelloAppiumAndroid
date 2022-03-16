@@ -1,0 +1,42 @@
+package com.utilities.waits;
+
+import io.appium.java_client.AppiumDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class ElementsHelper {
+    final AppiumDriver<?> driver;
+    final WebDriverWait wait;
+
+
+    public ElementsHelper(AppiumDriver<?> driver) {
+        this.driver = driver;
+        PageFactory.initElements(driver, this);
+        wait = createWebDriverWait(10);
+    }
+
+    private WebDriverWait createWebDriverWait(final long timeOutInSeconds) {
+        return new WebDriverWait(driver, timeOutInSeconds);
+    }
+
+    public void sendKeyToTextBox (final By elementLocator, final String keyValue){
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(elementLocator)).sendKeys(keyValue);
+        } catch (org.openqa.selenium.TimeoutException e) {}
+    }
+
+    public void tapButton (final By elementLocator){
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(elementLocator)).click();
+        } catch (org.openqa.selenium.TimeoutException e) {}
+    }
+
+    public String getText (final By elementLocator){
+        String textInElement = wait.until(ExpectedConditions.visibilityOfElementLocated(elementLocator)).getText();
+        return textInElement;
+
+    }
+
+}
