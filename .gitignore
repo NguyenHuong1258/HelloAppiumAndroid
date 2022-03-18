@@ -1,0 +1,14 @@
+.idea/
+target/
+logs/
+bin/
+output/
+ExtentReport/
+Screenshots/
+.DS_Store
+.settings/
+.classpath
+.project
+*.iml
+test-output/
+.idea/*
