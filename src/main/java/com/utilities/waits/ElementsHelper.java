@@ -27,10 +27,10 @@ public class ElementsHelper {
     public void sendKeyToTextBox (final By elementLocator, final String keyValue){
         try {
             wait.until(ExpectedConditions.visibilityOfElementLocated(elementLocator)).sendKeys(keyValue);
-            LOGGER.info("Sent key: %s to the textbox.,", keyValue);
+            LOGGER.info("Sent key: %s to the text box.", keyValue);
 
         } catch (org.openqa.selenium.TimeoutException e) {
-            LOGGER.info("Can not send key: %s to the textbox.,", keyValue);
+            LOGGER.info("Can not send key: %s to the text box.", keyValue);
         }
     }
 
