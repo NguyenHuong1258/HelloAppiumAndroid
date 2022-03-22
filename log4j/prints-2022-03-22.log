@@ -1,0 +1,4 @@
+16:38:46.749 [main] INFO  com.utilities.waits.ElementsHelper - Sent key: %s to the text box.
+16:38:47.805 [main] INFO  com.utilities.waits.ElementsHelper - Sent key: %s to the text box.
+16:38:48.365 [main] INFO  com.utilities.waits.ElementsHelper - Button is taken an action.
+16:38:48.877 [main] INFO  com.utilities.waits.ElementsHelper - Text: %s is get successfully.

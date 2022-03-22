@@ -1,6 +1,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="AppiumHelloAndroid" verbose="1">
+    <listeners>
+        <listener class-name="com.utilities.reports.testngListener"/>
+    </listeners>
     <test name="SampleTest">
         <classes>
             <class name="com.autosample.testcases.LoginTest"/>
