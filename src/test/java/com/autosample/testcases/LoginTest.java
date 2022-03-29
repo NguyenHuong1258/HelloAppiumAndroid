@@ -15,7 +15,6 @@ import java.net.MalformedURLException;
 
 public class LoginTest extends BaseTest {
     private  static AppiumDriver driver;
-    private final static Logger LOGGER = LogManager.getLogger(LoginTest.class.getName());
     LoginPage loginPage;
 
     @BeforeTest

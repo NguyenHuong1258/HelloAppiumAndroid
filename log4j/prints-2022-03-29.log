@@ -1,0 +1,16 @@
+15:33:12.991 [main] INFO  com.utilities.waits.ElementsHelper - Sent key: %s to the text box.
+15:33:14.044 [main] INFO  com.utilities.waits.ElementsHelper - Sent key: %s to the text box.
+15:33:14.641 [main] INFO  com.utilities.waits.ElementsHelper - Button is taken an action.
+15:33:15.183 [main] INFO  com.utilities.waits.ElementsHelper - Text: %s is get successfully.
+15:33:33.025 [main] INFO  com.utilities.waits.ElementsHelper - Sent key: %s to the text box.
+15:33:34.078 [main] INFO  com.utilities.waits.ElementsHelper - Sent key: %s to the text box.
+15:33:34.653 [main] INFO  com.utilities.waits.ElementsHelper - Button is taken an action.
+15:33:35.191 [main] INFO  com.utilities.waits.ElementsHelper - Text: %s is get successfully.
+16:04:16.158 [main] INFO  com.utilities.waits.ElementsHelper - Sent key: %s to the text box.
+16:04:16.716 [main] INFO  com.utilities.waits.ElementsHelper - Sent key: %s to the text box.
+16:04:17.298 [main] INFO  com.utilities.waits.ElementsHelper - Button is taken an action.
+16:04:17.820 [main] INFO  com.utilities.waits.ElementsHelper - Text: %s is get successfully.
+16:22:21.676 [main] INFO  com.utilities.waits.ElementsHelper - Sent key: %s to the text box.
+16:22:22.233 [main] INFO  com.utilities.waits.ElementsHelper - Sent key: %s to the text box.
+16:22:22.800 [main] INFO  com.utilities.waits.ElementsHelper - Button is taken an action.
+16:22:23.320 [main] INFO  com.utilities.waits.ElementsHelper - Text: %s is get successfully.
